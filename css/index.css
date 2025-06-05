@@ -4,6 +4,26 @@
   align-items: center;
 }
 
+h1 {
+  color: #2e2e2e;
+}
+
+.connect-btn {
+  background-color: #2e2e2e;
+  color: #ffffff;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 8px;
+}
+
+.projects div {
+  background-color: #fffbfb;
+  margin: 20px 0px;
+  border-radius: 6px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
 .projects img {
   width: 300px;
 }
