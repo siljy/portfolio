@@ -7,3 +7,11 @@
 body {
   background-color: #ffeff5;
 }
+
+main {
+  margin: 2rem;
+}
+
+p {
+  padding: 10px 0px;
+}
