@@ -33,6 +33,7 @@ nav {
 
 .nav-links li {
   padding: 1rem;
+  cursor: pointer;
 }
 
 .nav-links a {
