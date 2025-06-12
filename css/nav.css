@@ -2,10 +2,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   width: 100%;
   position: relative;
   background-color: #f9f9f9;
+  margin-bottom: 1.2rem;
 }
 
 .logo {
@@ -29,6 +30,7 @@ nav {
   right: 0;
   background-color: #f9f9f9;
   width: 100%;
+  z-index: 10;
 }
 
 .nav-links li {
@@ -37,7 +39,6 @@ nav {
 }
 
 .nav-links a {
-  text-decoration: none;
   color: #2e2e2e;
   padding: 0.5rem;
 }
@@ -51,6 +52,10 @@ nav {
 }
 
 @media (min-width: 768px) {
+  .nav-links li {
+    padding: 0.2rem 1rem;
+  }
+
   .ham-menu {
     display: none;
   }

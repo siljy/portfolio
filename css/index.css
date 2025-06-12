@@ -2,20 +2,49 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1.2rem;
+  text-align: left;
 }
 
 h1 {
   color: #2e2e2e;
 }
 
+.projects {
+  margin-bottom: 2rem;
+}
+
+.projects h2 {
+  margin-bottom: 1.5rem;
+}
+
 .projects div {
   background-color: #fffbfb;
-  margin: 20px 0px;
+  margin: 0 auto;
   border-radius: 6px;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
   cursor: pointer;
+  max-width: 90vw;
+  width: 100%;
+  text-align: left;
 }
 
 .projects img {
-  width: 300px;
+  width: 400px;
+  display: block;
+  margin: 0.5rem auto;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .projects div {
+    max-width: 60vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects img {
+    width: 600px;
+  }
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/nav.css" />
     <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <script
       src="https://kit.fontawesome.com/55afffd944.js"
       crossorigin="anonymous"
@@ -14,75 +15,87 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html">
-          <img
-            src="assets/logo.svg"
-            alt="Portfolio logo, the letters ssm in lowercase"
-            class="logo"
-          />
-        </a>
+    <div class="page-wrapper">
+      <header>
+        <nav>
+          <a href="index.html">
+            <img
+              src="assets/logo.svg"
+              alt="Portfolio logo, the letters ssm in lowercase"
+              class="logo"
+            />
+          </a>
 
-        <div class="ham-menu">
-          <i class="fa fa-bars"></i>
-        </div>
+          <div class="ham-menu">
+            <i class="fa fa-bars"></i>
+          </div>
 
-        <ul class="nav-links">
-          <li><a href="index.html">My work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/silje-skogstrand-moe-1bba7b269/"
-              ><i class="fa fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://github.com/siljy"><i class="fa fa-github"></i></a>
-          </li>
-          <li><button class="connect-btn">Connect</button></li>
-        </ul>
-      </nav>
-    </header>
+          <ul class="nav-links">
+            <li><a href="index.html">My work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/silje-skogstrand-moe-1bba7b269/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/siljy"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li><button class="connect-btn">Connect</button></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main>
-      <section>
-        <aside>
-          <img src="assets/portrait.JPG" width="200px" alt="Headshot of me" />
-        </aside>
-        <h1>Get to know me</h1>
-        <p>
-          My name is Silje, and I am a UX designer and frontend developer living
-          in Sandnes, Norway.
-        </p>
-        <p>
-          With a degree in UX design and a bachelor's in TV and media
-          production, I bring a unique blend of skills to my design process.
-        </p>
-        <p>
-          Currently, I am pursuing a degree in frontend development, to add to
-          my UX abilities. I am inherently curious, which drives me to explore
-          new ideas and expand my skill set continuously.
-        </p>
-      </section>
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>Figma</li>
-          <li>HTML, CSS and JavaScript</li>
-          <li>Adobe Premiere, Photoshop and Illustrator</li>
-        </ul>
-      </section>
-    </main>
-
+      <main>
+        <section class="about-me">
+          <aside>
+            <img
+              class="portrait"
+              src="assets/portrait.JPG"
+              alt="Headshot of me"
+            />
+          </aside>
+          <div class="about-me-content">
+            <h1>Get to know me</h1>
+            <p>
+              My name is Silje, and I am a UX designer and frontend developer
+              living in Sandnes, Norway.
+            </p>
+            <p>
+              With a degree in UX design and a bachelor's in TV and media
+              production, I bring a unique blend of skills to my design process.
+            </p>
+            <p>
+              Currently, I am pursuing a degree in frontend development, to add
+              to my UX abilities. I am inherently curious, which drives me to
+              explore new ideas and expand my skill set continuously.
+            </p>
+          </div>
+        </section>
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Figma</li>
+            <li>HTML, CSS and JavaScript</li>
+            <li>Adobe Premiere, Photoshop and Illustrator</li>
+          </ul>
+        </section>
+      </main>
+    </div>
     <footer>
       <h2>Let's connect!</h2>
       <p>siljeskogstrand@gmail.com</p>
 
-      <a href="https://www.linkedin.com/in/silje-skogstrand-moe-1bba7b269/"
-        ><i class="fa fa-linkedin"></i
-      ></a>
-      <a href="https://github.com/siljy"><i class="fa fa-github"></i></a>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/silje-skogstrand-moe-1bba7b269/"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/siljy"><i class="fa fa-github"></i></a>
+      </div>
+
       <p class="footer-txt">Designed and developed by Silje Skogstrand Moe</p>
     </footer>
   </body>
