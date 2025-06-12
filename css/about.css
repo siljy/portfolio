@@ -1,0 +1,32 @@
+.portrait {
+  border-radius: 6px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0.5rem auto;
+  filter: grayscale(100%);
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  margin: 1.2rem auto;
+}
+
+.skills li {
+  font-size: 1rem;
+  margin-left: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .about-me {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about-me-content {
+    flex-direction: column;
+  }
+}

@@ -2,10 +2,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   width: 100%;
   position: relative;
   background-color: #f9f9f9;
+  margin-bottom: 1.2rem;
 }
 
 .logo {
@@ -13,7 +14,7 @@ nav {
 }
 
 .ham-menu {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
   display: block;
 }
@@ -29,6 +30,7 @@ nav {
   right: 0;
   background-color: #f9f9f9;
   width: 100%;
+  z-index: 10;
 }
 
 .nav-links li {
@@ -37,7 +39,8 @@ nav {
 }
 
 .nav-links a {
-  text-decoration: none;
+  color: #2e2e2e;
+  padding: 0.5rem;
 }
 
 .nav-links.active {
@@ -48,18 +51,19 @@ nav {
   color: #404040;
 }
 
-/* @media (min-width: 768px) {
-  nav {
-    margin: 0px 100px;
+@media (min-width: 768px) {
+  .nav-links li {
+    padding: 0.2rem 1rem;
+  }
+
+  .ham-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
-
-@media (min-width: 1024px) {
-  nav {
-    margin: 0px 150px;
-  }
-
-  nav li {
-    padding: 30px;
-  }
-} */
