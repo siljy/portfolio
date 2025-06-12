@@ -38,6 +38,10 @@ h4 {
   font-size: 1.5rem;
 }
 
+li {
+  font-size: 1.25rem;
+}
+
 p,
 li {
   font-family: "Satoshi", sans-serif;
@@ -49,4 +53,17 @@ button {
   font-family: "Satoshi", sans-serif;
   font-weight: 300;
   margin: 15px 0px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.connect-btn {
+  background-color: #2e2e2e;
+  color: #ffffff;
+}
+
+.connect-btn:hover {
+  background-color: #404040;
 }

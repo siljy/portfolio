@@ -13,7 +13,7 @@ nav {
 }
 
 .ham-menu {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   cursor: pointer;
   display: block;
 }
@@ -39,6 +39,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: #2e2e2e;
+  padding: 0.5rem;
 }
 
 .nav-links.active {
@@ -49,18 +50,15 @@ nav {
   color: #404040;
 }
 
-/* @media (min-width: 768px) {
-  nav {
-    margin: 0px 100px;
+@media (min-width: 768px) {
+  .ham-menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
-
-@media (min-width: 1024px) {
-  nav {
-    margin: 0px 150px;
-  }
-
-  nav li {
-    padding: 30px;
-  }
-} */
