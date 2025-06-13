@@ -1,13 +1,28 @@
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 1.2rem;
-  text-align: left;
-}
-
 h1 {
   color: #2e2e2e;
+}
+
+.hero {
+  margin: 0 auto 1.2rem auto;
+  text-align: left;
+  max-width: 80vw;
+}
+
+.hero-content-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  gap: 2rem;
+}
+
+.divider-line {
+  height: 1px;
+  background: #2e2e2e;
+  border-radius: 10px;
+  margin: 2rem 0;
+  width: 100%;
 }
 
 .projects {
@@ -18,7 +33,7 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
-.projects div {
+.projects-content-div {
   background-color: #fffbfb;
   margin: 0 auto;
   border-radius: 6px;
@@ -27,6 +42,12 @@ h1 {
   max-width: 90vw;
   width: 100%;
   text-align: left;
+}
+
+.projects-wrapper {
+  margin: 0 auto;
+  max-width: 90vw;
+  width: 100%;
 }
 
 .projects img {
@@ -38,12 +59,22 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  .projects div {
+  .hero,
+  .projects-content-div,
+  .projects-wrapper {
     max-width: 60vw;
   }
 }
 
 @media (min-width: 1024px) {
+  .hero,
+  .projects-content-div,
+  .projects-wrapper {
+    max-width: 40vw;
+  }
+  .divider-line {
+    height: 1.5px;
+  }
   .projects img {
     width: 600px;
   }
