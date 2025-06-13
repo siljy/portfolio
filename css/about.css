@@ -8,10 +8,12 @@
   filter: grayscale(100%);
 }
 
-.about-me {
+.about-me,
+.skills {
   display: flex;
   flex-direction: column;
-  margin: 1.2rem auto;
+  margin: 0 auto 1.2rem auto;
+  text-align: left;
 }
 
 .skills li {
@@ -28,5 +30,20 @@
 
   .about-me-content {
     flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-me,
+  .skills {
+    max-width: 60vw;
+    margin: 4rem auto 1.2rem auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-me,
+  .skills {
+    max-width: 40vw;
   }
 }

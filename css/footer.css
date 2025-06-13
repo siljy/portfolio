@@ -5,6 +5,11 @@ footer {
   padding-bottom: 1.2rem;
   gap: 1rem;
   margin-top: 1.2rem;
+  background-color: #f9f9f9;
+}
+
+footer h2 {
+  padding-top: 2rem;
 }
 
 .icons {
