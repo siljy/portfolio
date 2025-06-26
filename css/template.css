@@ -3,3 +3,46 @@
   text-transform: uppercase;
   font-size: 0.8rem;
 }
+
+.header-img {
+  max-width: 90vw;
+}
+
+.two-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.two-images-img {
+  max-width: 60vw;
+}
+
+.list-item {
+  font-size: 1rem;
+}
+
+.persona,
+img {
+  max-width: 80vw;
+}
+
+@media (min-width: 768px) {
+  .project-details-div {
+    display: flex;
+    gap: 4em;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-images {
+    flex-direction: row;
+  }
+
+  .two-images-img {
+    max-width: 40vw;
+  }
+}
