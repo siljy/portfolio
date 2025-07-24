@@ -58,6 +58,10 @@ h1 {
   height: auto;
 }
 
+.projects-content-div:hover {
+  border: solid 1px #2e2e2e;
+}
+
 @media (min-width: 768px) {
   .hero,
   .projects-content-div,
