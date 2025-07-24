@@ -14,6 +14,7 @@ body {
 .page-wrapper {
   flex: 1;
 }
+
 body {
   background-color: #ffeff5;
   font-size: 16px;
@@ -41,11 +42,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 1.6rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 li {
@@ -55,7 +56,7 @@ li {
 p,
 li {
   font-family: "Satoshi", sans-serif;
-  padding: 10px 0px;
+  padding: 10px 0px 20px;
   color: #2e2e2e;
 }
 
@@ -88,7 +89,7 @@ button {
   }
 
   main {
-    margin: 0px 70px;
+    margin: 0px 100px;
   }
 }
 

@@ -1,5 +1,77 @@
+h1 {
+  padding: 0px 0px 20px;
+}
+
+h3 {
+  padding: 10px 0px 0px;
+}
+
+section {
+  padding-bottom: 10vh;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.method-div,
+ol {
+  background-color: #fffbfb;
+  padding: 10px 10px 5px;
+  margin-bottom: 20px;
+}
+
 .txt-details {
   color: #404040;
   text-transform: uppercase;
   font-size: 0.8rem;
+  padding: 0px;
+}
+
+.header-img {
+  max-width: 90vw;
+}
+
+.two-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.two-images-img {
+  max-width: 60vw;
+}
+
+.list-item {
+  font-size: 1rem;
+}
+
+.image,
+main img {
+  max-width: 80vw;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .project-details-div {
+    display: flex;
+    gap: 4em;
+  }
+
+  .project-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .two-images {
+    flex-direction: row;
+  }
+
+  .two-images-img {
+    max-width: 40vw;
+  }
+
+  .list-item {
+    font-size: 0.9rem;
+  }
 }
